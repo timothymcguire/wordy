@@ -1,0 +1,17 @@
+[package]
+name = "wordy"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[dev-dependencies]
+criterion = "0.3"
+
+[[bench]]
+name = "search"
+harness = false
+
+[[bench]]
+name = "index"
+harness = false
